@@ -16,9 +16,11 @@
  
  
  let menuBar: MenuBar = {
+ 
         let mb = MenuBar()
         mb.translatesAutoresizingMaskIntoConstraints = false
         return mb
+        
     }()
     
   
