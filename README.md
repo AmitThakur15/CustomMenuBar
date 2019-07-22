@@ -26,7 +26,9 @@
   
   
   func addMenuBar()  {
-        view.addSubview(menuBar)
+        
+       
+       view.addSubview(menuBar)
         
         menuBar.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
         menuBar.topAnchor.constraint(equalTo: view.topAnchor, constant: 64).isActive = true
