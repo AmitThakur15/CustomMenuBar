@@ -12,13 +12,18 @@
 
 3. copy and paste this below code  in your file (on which you want to show menubar).
 
-let menuBar: MenuBar = {
+  
+ 
+ 
+ let menuBar: MenuBar = {
         let mb = MenuBar()
         mb.translatesAutoresizingMaskIntoConstraints = false
         return mb
     }()
     
-   func addMenuBar()  {
+  
+  
+  func addMenuBar()  {
         view.addSubview(menuBar)
         
         menuBar.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
